@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Agregar título a la página -->
+        <title>Landing Page - 1er Corte</title>
+        <meta title="Landing Page - 1er Corte">
+        
+        <!-- Codificación de Caracteres del Texto -->
+        <meta charset="utf-8">
+        
+        <!-- Agregar ícono de favoritos -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Meta que permite la correcta visualización en Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Cargar librería de Íconos Web > Font Awesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Cargar PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Cargar Tipografía Web > Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Enlazar a archivo externo CSS > estilo.css -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <!-- Componente Botón WhatsApp flotante -->
+        <aside id="boton-wp">
+            <a href="https://api.whatsapp.com/send?phone=573146089813" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+
+        <!-- Componente Menú Responsive -->
+        <aside id="menu-moviles">
+            <a href="#" id="abrir-menu">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar-menu">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <nav>
+                <a href="https://www.instagram.com/k_chica_detalles/">Sobre nosotros</a>
+                <a href="#ancla-decoracion">Servicio de decoración</a>
+                <a href="#ancla-regalos">Regalos</a>
+                <a href="#ancla-destacados">destacados</a>
+                <a href="#ancla-desayunos">Desayunos</a>
+            </nav>
+        </aside>
+
+        <!-- Componente Header con Logo y Menú -->
+        <header class="no-sticky">
+            <div id="capa-superior">
+                <article>
+                    <figure>
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Landing Page - 1er Corte">
+                        </a>
+                    </figure>
+
+                    <nav>
+                        <a href="https://www.instagram.com/k_chica_detalles/">Sobre nosotros</a>
+                        <a href="#ancla-footer">Servicio de decoración</a>
+                        <a href="#ancla-regalos">Regalos</a>
+                        <a href="#ancla-destacados">destacados</a>
+                        <a href="#ancla-desayunos">Desayunos</a>
+                    </nav>
+                </article>
+
+                <div id="titular">
+                    <h1>Los mejores regalos de barranquilla</h1>
+                    <p>Nace en mi corazón con el objetivo de alegrar los momentos especiales de nuestros clientes, atraves de todos los detalles y servicios que ofrecemos. 
+                        Queremos estar presente es toda tus celebraciones.
+                        Teniendo en cuenta que cualquier día es el indicado para alegrar los corazones de los que amas.
+                    </p>
+                </div>
+            </div>
+
+            <div id="fondo-oscuro-header" class="oscuro"></div>
+        </header>
+
+        <main class="margin-600">
+            
+            <div id="titular-regalos">
+                <h1>R E G A L O S</h1>
+            </div>
+
+            <section id="regalos">
+                <div id="ancla-regalos"></div>
+                
+                <article>
+                    <figure>
+                        <img src="img/regalos_1.png">
+                        <p>Anchetas de dulces con Mekatos, Chocolate, Brownies (por pedido, Galleta, Yogu, Postres (por pedido, Gomitas, Dulces de su preferencia</p>
+                        <h3>Desde $45000</h3>
+                    </figure>
+
+                    <figure>
+                        <img src="img/regalos_2.jpg">
+                        <p>Cajas dulceras o caja decorada</p>
+                        <h3>Desde $15000</h3>
+                    </figure>
+
+                    <figure>
+                        <img src="img/regalos_3.png">
+                        <p>Anchetas con desayunos sorpresa</p>
+                        <h3>Desde $45000</h3>
+                    </figure>
+
+                    <figure>
+                        <img src="img/regalos_4.png">
+                        <p>Cajas de letras con desayuno o dulces y mecatos</p>
+                        <h3>Desde $35000</h3>
+                    </figure>
+                </article>
+            </section>
+
+                <div id="titular-destacados">
+                    <h1>D E S T A C A D O S</h1>
+                </div>
+
+            <section id="destacados">
+                <div id="ancla-destacados"></div>
+                
+                
+                <nav>
+                    <!-- Imagen Grande -->
+                    <a href="img/destacadosfull_1.png" data-fancybox="galeria">
+                        <!-- Imagen Miniatura -->
+                        <img src="img/destacados_1.png">
+                    </a>
+
+                    <a href="img/destacadosfull_2.png" data-fancybox="galeria">
+                        <img src="img/destacadosfull_2.png">
+                    </a>
+
+                    <a href="img/destacadosfull_3.jpg" data-fancybox="galeria">
+                        <img src="img/destacados_3.jpg">
+                    </a>
+
+                    <a href="img/destacadosfull_4.jpg" data-fancybox>
+                        <img src="img/destacados_4.jpg">
+                    </a>
+
+                    <a href="img/regalosfull_5.png" data-fancybox="galeria">
+                        <img src="img/regalos_5.png">
+                    </a>
+                    <a href="img/regalosfull_6.png" data-fancybox="galeria">
+                        <img src="img/regalos_6.png">
+                    </a>
+                </nav>
+            </section>
+
+                <div id="titular-desayunos">
+                    <h1>D E S A Y U N O S</h1>
+                </div>
+
+            <section id="desayunos">
+                <div id="ancla-desayunos"></div>
+                
+                
+                <article>
+                    <figure>
+                        <img src="img/desayunos_1.jpg">
+                        <p>Sándwich de jamón y queso (por pedido), Arepas de queso con huevo,Deditos de salchichas,Jugo,Yogure,Chocolate,Frutas enteras o picadas de su preferenci,Bases de madera,Decoración en globos,Tarjeta personalizadas</p>
+                        <h3>Desde $45000</h3>
+                    </figure>
+
+                    <figure>
+                        <img src="img/desayunos_2.png">
+                        <p>Sándwich de jamón y queso (por pedido), Arepas de queso con huevo,Deditos de salchichas,Jugo,Yogure,Chocolate,Frutas enteras o picadas de su preferenci,Bases de madera,Decoración en globos,Tarjeta personalizadas</p>
+                        <h3>Desde $45000</h3>
+                    </figure>
+
+                    <figure>
+                        <img src="img/desayunos_3.png">
+                        <p>Sándwich de jamón y queso (por pedido), Arepas de queso con huevo,Deditos de salchichas,Jugo,Yogure,Chocolate,Frutas enteras o picadas de su preferenci,Bases de madera,Decoración en globos,Tarjeta personalizadas</p>
+                        <h3>Desde $45000</h3>
+                    </figure>
+
+                    <figure>
+                        <img src="img/desayunos_4.png">
+                        <p>Sándwich de jamón y queso (por pedido), Arepas de queso con huevo,Deditos de salchichas,Jugo,Yogure,Chocolate,Frutas enteras o picadas de su preferenci,Bases de madera,Decoración en globos,Tarjeta personalizadas</p>
+                        <h3>Desde $45000</h3>
+                    </figure>
+                </article>
+            </section>
+        </main>
+
+        <!-- Componente Footer con 4 columnas -->
+        <footer>
+            <div id="ancla-footer"></div>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Landing Page - 1er Corte">
+                    </a>
+                </figure>
+
+                <nav id="links-redes">
+                    <a href="https://www.instagram.com/k_chica_detalles/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </nav>
+            </article>
+        </footer>
+
+        <!-- Zona de Scripts -->
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- FancyApps.com desde CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+        <!-- Enlazar a archivo externo JS > script.js -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
